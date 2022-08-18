@@ -9,6 +9,7 @@ import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.co
 import { AppRoutingModule } from './app-routing.module';
 import { PageStatisquesComponent } from './pages/page-statisques/page-statisques.component';
 import { MenuComponent } from './composants/menu/menu.component';
+import { HeaderComponent } from './composants/header/header.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenuComponent } from './composants/menu/menu.component';
     PageInscriptionComponent,
     PageDashboardComponent,
     PageStatisquesComponent,
-    MenuComponent
+    MenuComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
