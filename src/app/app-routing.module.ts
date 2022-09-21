@@ -1,3 +1,4 @@
+import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { PageDashboardComponent } from "./pages/page-dashboard/page-dashboard.component";
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'statistiques',
         component: PageStatisquesComponent
+      },
+      {
+        path: 'articles',
+        component: PageArticleComponent
       }
     ]
   }
