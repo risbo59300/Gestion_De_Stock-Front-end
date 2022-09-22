@@ -1,3 +1,6 @@
+import { DetailMvtStkComponent } from './composants/detail-mvt-stk/detail-mvt-stk.component';
+import { DetailMvtStkArticleComponent } from './composants/detail-mvt-stk-article/detail-mvt-stk-article.component';
+import { PageMvtstkComponent } from './pages/mvtstk/page-mvtstk/page-mvtstk.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -27,7 +30,10 @@ import { BoutonActionComponent } from './composants/bouton-action/bouton-action.
     PageArticleComponent,
     DetailArticleComponent,
     PaginationComponent,
-    BoutonActionComponent
+    BoutonActionComponent,
+    PageMvtstkComponent,
+    DetailMvtStkArticleComponent,
+    DetailMvtStkComponent
   ],
   imports: [
     BrowserModule,
