@@ -1,3 +1,4 @@
+import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
 import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
@@ -26,6 +27,10 @@ const routes: Routes = [
       {
         path: 'articles',
         component: PageArticleComponent
+      },
+      {
+        path: 'nouvelarticle',
+        component: NouvelArticleComponent
       }
     ]
   }
