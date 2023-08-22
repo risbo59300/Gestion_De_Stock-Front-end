@@ -7,6 +7,7 @@ import { PageDashboardComponent } from "./pages/page-dashboard/page-dashboard.co
 import { PageInscriptionComponent } from "./pages/page-inscription/page-inscription.component";
 import { PageLoginComponent } from "./pages/page-login/page-login.component";
 import { PageStatisquesComponent } from "./pages/page-statisques/page-statisques.component";
+import { PageClientComponent } from './pages/client/page-client/page-client.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: 'mvtstk',
         component: PageMvtstkComponent
+      },
+      {
+        path: 'clients',
+        component: PageClientComponent
       }
     ]
   }

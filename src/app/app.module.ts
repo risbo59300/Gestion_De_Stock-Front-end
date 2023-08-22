@@ -17,6 +17,8 @@ import { PageArticleComponent } from './pages/articles/page-article/page-article
 import { DetailArticleComponent } from './composants/detail-article/detail-article.component';
 import { PaginationComponent } from './composants/pagination/pagination.component';
 import { BoutonActionComponent } from './composants/bouton-action/bouton-action.component';
+import { DetailCltFrsComponent } from './composants/detail-clt-frs/detail-clt-frs.component';
+import { PageClientComponent } from './pages/client/page-client/page-client.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { BoutonActionComponent } from './composants/bouton-action/bouton-action.
     BoutonActionComponent,
     PageMvtstkComponent,
     DetailMvtStkArticleComponent,
-    DetailMvtStkComponent
+    DetailMvtStkComponent,
+    DetailCltFrsComponent,
+    PageClientComponent
   ],
   imports: [
     BrowserModule,
