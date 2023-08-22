@@ -8,6 +8,7 @@ import { PageInscriptionComponent } from "./pages/page-inscription/page-inscript
 import { PageLoginComponent } from "./pages/page-login/page-login.component";
 import { PageStatisquesComponent } from "./pages/page-statisques/page-statisques.component";
 import { PageClientComponent } from './pages/client/page-client/page-client.component';
+import { PageFournisseurComponent } from './pages/fournisseur/page-fournisseur/page-fournisseur.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path: 'clients',
         component: PageClientComponent
+      },
+      {
+        path: 'fournisseurs',
+        component: PageFournisseurComponent
       }
     ]
   }

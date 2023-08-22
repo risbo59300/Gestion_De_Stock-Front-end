@@ -19,6 +19,7 @@ import { PaginationComponent } from './composants/pagination/pagination.componen
 import { BoutonActionComponent } from './composants/bouton-action/bouton-action.component';
 import { DetailCltFrsComponent } from './composants/detail-clt-frs/detail-clt-frs.component';
 import { PageClientComponent } from './pages/client/page-client/page-client.component';
+import { PageFournisseurComponent } from './pages/fournisseur/page-fournisseur/page-fournisseur.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PageClientComponent } from './pages/client/page-client/page-client.comp
     DetailMvtStkArticleComponent,
     DetailMvtStkComponent,
     DetailCltFrsComponent,
-    PageClientComponent
+    PageClientComponent,
+    PageFournisseurComponent
   ],
   imports: [
     BrowserModule,
