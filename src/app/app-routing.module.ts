@@ -59,7 +59,7 @@ const routes: Routes = [
         component: PageFournisseurComponent
       },
       {
-        path: 'nouveaufournisseurs',
+        path: 'nouveaufournisseur',
         component: NouveauCltFrsComponent
       },
       {
