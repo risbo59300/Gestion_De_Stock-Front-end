@@ -20,6 +20,7 @@ import { BoutonActionComponent } from './composants/bouton-action/bouton-action.
 import { DetailCltFrsComponent } from './composants/detail-clt-frs/detail-clt-frs.component';
 import { PageClientComponent } from './pages/client/page-client/page-client.component';
 import { PageFournisseurComponent } from './pages/fournisseur/page-fournisseur/page-fournisseur.component';
+import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { PageFournisseurComponent } from './pages/fournisseur/page-fournisseur/p
     DetailMvtStkComponent,
     DetailCltFrsComponent,
     PageClientComponent,
-    PageFournisseurComponent
+    PageFournisseurComponent,
+    NouveauCltFrsComponent
   ],
   imports: [
     BrowserModule,
