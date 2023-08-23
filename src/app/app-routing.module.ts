@@ -10,6 +10,7 @@ import { PageStatisquesComponent } from "./pages/page-statisques/page-statisques
 import { PageClientComponent } from './pages/client/page-client/page-client.component';
 import { PageFournisseurComponent } from './pages/fournisseur/page-fournisseur/page-fournisseur.component';
 import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
+import { PageCmdCltFrsComponent } from './pages/page-cmd-clt-frs/page-cmd-clt-frs.component';
 
 
 const routes: Routes = [
@@ -50,13 +51,21 @@ const routes: Routes = [
         component: NouveauCltFrsComponent
       },
       {
+        path: 'commandesclient',
+        component: PageCmdCltFrsComponent
+      },
+      {
         path: 'fournisseurs',
         component: PageFournisseurComponent
       },
       {
         path: 'nouveaufournisseurs',
         component: NouveauCltFrsComponent
-      }
+      },
+      {
+        path: 'commandesfournisseur',
+        component: PageCmdCltFrsComponent
+      },
     ]
   }
 ];
