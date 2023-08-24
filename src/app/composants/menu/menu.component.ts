@@ -100,7 +100,7 @@ export class MenuComponent implements OnInit {
         id: '51',
         titre: 'catégories',
         icon: 'fa-solid fa-screwdriver-wrench',
-        url: '',
+        url: 'categories',
         },
         {
           id: '52',
